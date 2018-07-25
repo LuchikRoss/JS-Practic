@@ -1,0 +1,28 @@
+@media only screen and ( max-width: 1000px ) {
+  $colorBtnActive: #ff184b;
+  &:last-child {
+  } // last-child
+  &__img {
+    &-unactive {
+    } // -unactive
+  } // __img
+  &__descr {
+  } // __desc
+  &__price {
+    &-discount {
+      &::after {
+      } // after
+    } // -discout
+    &-unactive {
+    } // -unactive
+  } // __price
+  &__btn {
+    background:$colorBtnActive;
+    &:hover {
+    } // hover
+    &-unactive {
+      &:hover {
+      } // hover
+    } // -unactive
+  } // __btn
+} // 1000
