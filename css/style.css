@@ -89,11 +89,11 @@ img {
         box-shadow: none; }
 
 .resp {
-  font-size: 40px;
+  font-size: 33px;
   text-align: center;
   opacity: 0;
   text-transform: uppercase;
-  color: pink;
+  color: #ff1f56;
   font-weight: 700;
   padding-bottom: 40px;
   transition: all 3s; }
